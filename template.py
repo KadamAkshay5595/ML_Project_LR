@@ -31,7 +31,7 @@ for file_path in list_of_path:
     if folder != "":
         os.makedirs(folder,exist_ok=True)
         
-    if (not os.path.exists(file)) or (os.path.getsize(file)==0):
+    if (not os.path.exists(File_path)) or (os.path.getsize(File_path)==0):
         with open(File_path,"w") as f:
             pass
         
