@@ -5,5 +5,7 @@ seaborn
 ipykernel
 Flask
 
-#-e . [e means editable and . represents current directory]
+-e . 
+ 
+#[e means editable and . represents current directory]
 # by using this we can create local package of our source code.
