@@ -1,7 +1,7 @@
 import os
 import sys
 import pandas as pd
-from src.GemstonePricePrediction.exception import customexceptions
+from src.GemstonePricePrediction.exception import customexception
 from src.GemstonePricePrediction.logger import logging
 from src.GemstonePricePrediction.utils.utils import load_object
 
@@ -26,7 +26,7 @@ class PredictPipeline:
             return pred
             
         except Exception as e:
-            raise customexceptions(e,sys)
+            raise customexception(e,sys)
         
 class CustomData:
     
@@ -72,5 +72,5 @@ class CustomData:
         
         except Exception as e:
             logging.info("failed to create dataframe")
-            raise customexceptions(e,sys)
+            raise customexception(e,sys)
             
