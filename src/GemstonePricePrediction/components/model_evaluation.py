@@ -9,7 +9,6 @@ import pickle
 from src.GemstonePricePrediction.utils.utils import load_object
 
 
-
 class ModelEvaluation:
     def __init__(self):
         pass
