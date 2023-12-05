@@ -1,0 +1,4 @@
+[core]
+    remote = remote_repo
+['remote "remote_repo"']
+    url = D:/remote_test_repo

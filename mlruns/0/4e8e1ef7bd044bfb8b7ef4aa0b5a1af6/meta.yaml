@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Project_LR/mlruns/0/4e8e1ef7bd044bfb8b7ef4aa0b5a1af6/artifacts
+end_time: 1701765898719
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4e8e1ef7bd044bfb8b7ef4aa0b5a1af6
+run_name: ambitious-zebra-229
+run_uuid: 4e8e1ef7bd044bfb8b7ef4aa0b5a1af6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701765894717
+status: 3
+tags: []
+user_id: akshay.kadam

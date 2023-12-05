@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Project_LR/mlruns/0/66760214f6ef42a1a070df328a27dfa7/artifacts
+end_time: 1701765970817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 66760214f6ef42a1a070df328a27dfa7
+run_name: marvelous-bass-229
+run_uuid: 66760214f6ef42a1a070df328a27dfa7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701765966581
+status: 3
+tags: []
+user_id: akshay.kadam

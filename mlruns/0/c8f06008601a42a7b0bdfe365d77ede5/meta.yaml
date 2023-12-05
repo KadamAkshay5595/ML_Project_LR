@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Project_LR/mlruns/0/c8f06008601a42a7b0bdfe365d77ede5/artifacts
+end_time: 1701765788210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c8f06008601a42a7b0bdfe365d77ede5
+run_name: able-hound-114
+run_uuid: c8f06008601a42a7b0bdfe365d77ede5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701765784044
+status: 3
+tags: []
+user_id: akshay.kadam

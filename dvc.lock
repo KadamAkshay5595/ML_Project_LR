@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python src/GemstonePricePrediction/pipelines/training_pipeline.py
+    deps:
+    - path: src/GemstonePricePrediction/components/data_ingestion.py
+      hash: md5
+      md5: f8cd0a59298ca8487b59a3bca9f8d50b
+      size: 2032
+    - path: src/GemstonePricePrediction/components/data_transformation.py
+      hash: md5
+      md5: 044f4cb41bb332844df1c800c0e4aac2
+      size: 4575
+    - path: src/GemstonePricePrediction/components/model_evaluation.py
+      hash: md5
+      md5: 84a0e6b2e5d9e19e57d46c188ebe0396
+      size: 2164
+    - path: src/GemstonePricePrediction/components/model_trainer.py
+      hash: md5
+      md5: f42b55b86f63d056f757da46a697d152
+      size: 2528
+    - path: src/GemstonePricePrediction/pipelines/training_pipeline.py
+      hash: md5
+      md5: 74e12d9965ff4fbbcef8de7e083a74dc
+      size: 941
+    outs:
+    - path: artifacts/model.pkl
+      hash: md5
+      md5: b7badf78514038d72c1442e402d66b22
+      size: 590
+    - path: artifacts/preprocessor.pkl
+      hash: md5
+      md5: daa7bb386c03e1bbed22d0eebde30dd9
+      size: 3025
+    - path: artifacts/raw.csv
+      hash: md5
+      md5: 4d3b99278017349368e70a85aa43bd7d
+      size: 10656378
+    - path: artifacts/test.csv
+      hash: md5
+      md5: eff84729356fc4f938b866f71dbcb16c
+      size: 2663127
+    - path: artifacts/train.csv
+      hash: md5
+      md5: a0d2760a5bdd4e705d4c4cb8afc5d270
+      size: 7993303

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_Project_LR/mlruns/0/09a1561efa054474a7389995cde49335/artifacts
+end_time: 1701765844650
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 09a1561efa054474a7389995cde49335
+run_name: adventurous-duck-730
+run_uuid: 09a1561efa054474a7389995cde49335
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701765840585
+status: 3
+tags: []
+user_id: akshay.kadam
