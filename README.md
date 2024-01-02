@@ -40,8 +40,8 @@ To get started with the project, follow these steps:
 
 1. Clone the repository: `git clone [repository_url]`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter notebooks for training and evaluation.
-
+3. Run the src/GemstonePricePrediction/pipelines/training_pipeline.py for training.
+4. Run the src/GemstonePricePrediction/pipelines/prediction_pipeline.py for prediction.
 ## Contributing
 
 We welcome contributions! If you'd like to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
